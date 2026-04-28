@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treinamento 3 — SESI FIEMG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="index.html" class="header-logo">
+    <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 220 70" fill="none" aria-label="SESI FIEMG">
+      <text x="0" y="52" font-family="Arial Black, sans-serif" font-size="58" font-weight="900" fill="white" letter-spacing="-2">SESI</text>
+      <rect x="138" y="8" width="10" height="10" rx="2" fill="#6ab04c"/>
+      <line x1="158" y1="12" x2="158" y2="58" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+      <text x="166" y="28" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.75)">Serviço</text>
+      <text x="166" y="42" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.75)">Social da</text>
+      <text x="166" y="56" font-family="Arial, sans-serif" font-size="11" fill="rgba(255,255,255,0.75)">Indústria</text>
+    </svg>
+  </a>
+  <nav class="header-nav">
+    <a href="index.html">← Todos os Treinamentos</a>
+  </nav>
+</header>
+
+<!-- PROGRESS BAR (aparece no hover ou scroll) -->
+<div class="progress-bar-wrap" role="progressbar" aria-label="Progresso de leitura">
+  <div class="progress-bar-track">
+    <div class="progress-bar-fill"></div>
+  </div>
+</div>
+
+<!-- SIDEBAR TOGGLE -->
+<button class="sidebar-toggle" aria-label="Abrir/fechar índice" aria-expanded="false">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5">
+    <polyline points="9 18 15 12 9 6"/>
+  </svg>
+</button>
+
+<!-- SIDEBAR -->
+<nav class="sidebar" aria-label="Índice do treinamento">
+  <div class="sidebar-header">
+    <p class="sidebar-eyebrow">Treinamento 03</p>
+    <p class="sidebar-title">Título do<br>Treinamento 3</p>
+  </div>
+  <div class="sidebar-nav">
+    <a class="sidebar-nav-item active" data-target="introducao">
+      <span class="nav-number">01</span>
+      <span class="nav-dot"></span>
+      Introdução
+    </a>
+    <a class="sidebar-nav-item" data-target="conceitos">
+      <span class="nav-number">02</span>
+      <span class="nav-dot"></span>
+      Conceitos Fundamentais
+    </a>
+    <a class="sidebar-nav-item" data-target="desenvolvimento">
+      <span class="nav-number">03</span>
+      <span class="nav-dot"></span>
+      Desenvolvimento
+    </a>
+    <a class="sidebar-nav-item" data-target="pratica">
+      <span class="nav-number">04</span>
+      <span class="nav-dot"></span>
+      Aplicação Prática
+    </a>
+    <a class="sidebar-nav-item" data-target="recursos">
+      <span class="nav-number">05</span>
+      <span class="nav-dot"></span>
+      Recursos e Referências
+    </a>
+  </div>
+</nav>
+
+<!-- LAYOUT PRINCIPAL -->
+<div class="training-layout">
+  <div class="training-main">
+
+    <!-- HERO DO TREINAMENTO -->
+    <div class="training-hero" style="padding-left:0; padding-right:0;">
+      <a href="index.html" class="training-hero-back">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+        Voltar ao início
+      </a>
+      <p class="training-hero-number">Treinamento 03</p>
+      <h1 class="training-hero-title">Título do<br>Treinamento 3</h1>
+      <p class="training-hero-desc">
+        Descrição geral do treinamento: o que será abordado, quais competências serão desenvolvidas e para quem este conteúdo se destina.
+      </p>
+      <div class="training-hero-meta">
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Duração estimada: — minutos
+        </span>
+        <span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          5 módulos
+        </span>
+      </div>
+    </div>
+
+    <hr style="border:none; border-top: 1px solid rgba(255,255,255,0.07); margin: 0 0 1rem;">
+
+    <!-- SEÇÃO 1 -->
+    <section class="content-section" data-id="introducao">
+      <p class="section-number">01 — Introdução</p>
+      <h2>Introdução</h2>
+      <p>
+        Este é o espaço para o texto introdutório do treinamento. Contextualize o tema, apresente a importância do assunto e o que o participante encontrará ao longo do material.
+      </p>
+      <p>
+        Substitua estes parágrafos com o conteúdo real. O layout já está preparado para receber textos longos, listas, caixas de destaque e subtítulos.
+      </p>
+
+      <div class="callout">
+        <p><strong>Dica:</strong> Use esta caixa para destacar informações importantes, avisos ou orientações relevantes para o participante.</p>
+      </div>
+
+      <p>
+        Continue o texto aqui. Este bloco de conteúdo aceita múltiplos parágrafos e elementos visuais sem perder a legibilidade.
+      </p>
+    </section>
+
+    <!-- SEÇÃO 2 -->
+    <section class="content-section" data-id="conceitos">
+      <p class="section-number">02 — Conceitos Fundamentais</p>
+      <h2>Conceitos Fundamentais</h2>
+      <p>
+        Insira aqui os conceitos-chave do treinamento. Esta seção é ideal para definições, terminologias e embasamento teórico.
+      </p>
+
+      <h3>Subtópico A</h3>
+      <p>
+        Desenvolva o subtópico aqui. Você pode usar listas para organizar informações:
+      </p>
+      <ul>
+        <li>Primeiro ponto importante do subtópico</li>
+        <li>Segundo ponto com explicação complementar</li>
+        <li>Terceiro ponto que encerra o raciocínio</li>
+      </ul>
+
+      <h3>Subtópico B</h3>
+      <p>
+        Texto explicativo do segundo subtópico. Mantenha a linguagem clara e direta, adequada ao público-alvo do treinamento.
+      </p>
+
+      <div class="highlight-box">
+        <p style="color: #a8c8a0; font-weight: 600; margin-bottom: 0.3rem;">Ponto de atenção</p>
+        <p style="color: var(--cinza-texto);">Use esta caixa verde para destacar pontos de atenção, boas práticas ou recomendações importantes.</p>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 3 -->
+    <section class="content-section" data-id="desenvolvimento">
+      <p class="section-number">03 — Desenvolvimento</p>
+      <h2>Desenvolvimento</h2>
+      <p>
+        Esta seção comporta o desenvolvimento principal do tema. Aprofunde os conceitos apresentados anteriormente com exemplos práticos, casos de uso e detalhes técnicos.
+      </p>
+      <p>
+        O scroll contínuo permite que o participante avance naturalmente pelo conteúdo sem perder o contexto. A barra lateral mostra em qual seção ele está.
+      </p>
+
+      <h3>Exemplo prático</h3>
+      <p>
+        Descreva um exemplo ou cenário que ilustre a aplicação do conteúdo ensinado. Exemplos concretos facilitam a absorção e retenção do conhecimento.
+      </p>
+
+      <ol>
+        <li>Primeiro passo do processo ou da análise</li>
+        <li>Segundo passo com detalhes adicionais</li>
+        <li>Terceiro passo que consolida a aprendizagem</li>
+        <li>Validação e verificação do resultado</li>
+      </ol>
+    </section>
+
+    <!-- SEÇÃO 4 -->
+    <section class="content-section" data-id="pratica">
+      <p class="section-number">04 — Aplicação Prática</p>
+      <h2>Aplicação Prática</h2>
+      <p>
+        Apresente aqui exercícios, estudos de caso ou situações reais onde o participante pode aplicar o que aprendeu. Esta seção conecta a teoria ao contexto de trabalho.
+      </p>
+
+      <h3>Estudo de Caso</h3>
+      <p>
+        Descreva o cenário do estudo de caso aqui. Contextualize a situação, o problema a ser resolvido e os dados disponíveis.
+      </p>
+
+      <div class="callout">
+        <p><strong>Atividade:</strong> Descreva aqui uma atividade ou reflexão que o participante deve realizar com base no conteúdo desta seção.</p>
+      </div>
+
+      <h3>Reflexão</h3>
+      <p>
+        Encoraje o participante a refletir sobre como o conteúdo se conecta com sua realidade profissional e quais ações práticas pode tomar a partir do aprendizado.
+      </p>
+    </section>
+
+    <!-- SEÇÃO 5 -->
+    <section class="content-section" data-id="recursos">
+      <p class="section-number">05 — Recursos e Referências</p>
+      <h2>Recursos e Referências</h2>
+      <p>
+        Liste aqui os materiais de apoio, referências bibliográficas, links úteis e demais recursos que o participante pode consultar para aprofundar o conhecimento.
+      </p>
+
+      <h3>Leitura Recomendada</h3>
+      <ul>
+        <li>Referência bibliográfica 1 — Autor, Ano</li>
+        <li>Referência bibliográfica 2 — Autor, Ano</li>
+        <li>Referência bibliográfica 3 — Autor, Ano</li>
+      </ul>
+
+      <h3>Links Úteis</h3>
+      <ul>
+        <li>Site ou recurso online relevante</li>
+        <li>Documento ou normativa de referência</li>
+        <li>Ferramenta ou sistema mencionado no treinamento</li>
+      </ul>
+
+      <div class="highlight-box" style="margin-top: 2.5rem;">
+        <p style="color: #a8c8a0; font-weight: 600; margin-bottom: 0.4rem;">✓ Conteúdo concluído</p>
+        <p style="color: var(--cinza-texto);">Você chegou ao final do material de apoio deste treinamento. Retorne ao início sempre que precisar consultar algum ponto.</p>
+      </div>
+
+      <!-- Navegação entre treinamentos -->
+      <div style="display:flex; gap: 1rem; margin-top: 3rem; flex-wrap: wrap;">
+        <a href="index.html" style="
+          display: inline-flex; align-items: center; gap: 0.5rem;
+          padding: 0.75rem 1.5rem;
+          background: rgba(0,97,176,0.15);
+          border: 1px solid rgba(0,97,176,0.3);
+          border-radius: 8px;
+          color: var(--cinza-texto);
+          font-family: 'Barlow Condensed', sans-serif;
+          font-size: 0.8rem;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          text-decoration: none;
+          transition: background 0.2s, color 0.2s;
+        " onmouseover="this.style.background='rgba(0,97,176,0.3)';this.style.color='#fff'"
+           onmouseout="this.style.background='rgba(0,97,176,0.15)';this.style.color='var(--cinza-texto)'">
+          ← Todos os Treinamentos
+        </a>
+        <a href="treinamento-4.html" style="
+          display: inline-flex; align-items: center; gap: 0.5rem;
+          padding: 0.75rem 1.5rem;
+          background: var(--azul-claro);
+          border: 1px solid var(--azul-claro);
+          border-radius: 8px;
+          color: white;
+          font-family: 'Barlow Condensed', sans-serif;
+          font-size: 0.8rem;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          text-decoration: none;
+          transition: background 0.2s;
+        " onmouseover="this.style.background='var(--azul-medio)'"
+           onmouseout="this.style.background='var(--azul-claro)'">
+          Próximo: Treinamento 4 →
+        </a>
+      </div>
+    </section>
+
+  </div><!-- /training-main -->
+</div><!-- /training-layout -->
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-logo">
+    <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 0 140 50" fill="none">
+      <text x="0" y="40" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="rgba(255,255,255,0.45)" letter-spacing="-1">SESI</text>
+      <rect x="112" y="6" width="8" height="8" rx="2" fill="rgba(106,176,76,0.4)"/>
+    </svg>
+  </div>
+  <p class="footer-text">SESI FIEMG · Material de Apoio para Treinamentos</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
